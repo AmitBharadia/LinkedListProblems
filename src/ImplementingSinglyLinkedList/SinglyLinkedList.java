@@ -59,6 +59,6 @@ public class SinglyLinkedList {
 			list.display();
 			System.out.println("\nDo you want to continue (Type y or n) \n");
 			ch = scanner.next().charAt(0);
-		} while (ch != 'N' || ch != 'n');
+		} while (ch == 'Y' || ch == 'y');
 	}
 }
