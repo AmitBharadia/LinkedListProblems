@@ -2,6 +2,7 @@ package StackUsingLinkedLIst;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class StackWithLinkedList {
 	public static LinkedList<Integer> stack = new LinkedList<Integer>();
@@ -24,7 +25,7 @@ public class StackWithLinkedList {
 	}
 
 	public static void printStack() {
-		Iterator<Integer> i = stack.iterator();
+		ListIterator<Integer> i = stack.listIterator();
 		while(i.hasNext()) {
 			System.out.println(i.next());
 		}
